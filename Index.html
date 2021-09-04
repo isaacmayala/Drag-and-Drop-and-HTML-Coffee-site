@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .float-container:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .float-container > .float-left {
+            float: left;
+            display: block;
+        }        
+        .float-container > .float-right {
+            float: right;
+            display: block;
+        }
+    </style>
+</head>
+<body style="background-color: #f0b27a;" >
+    <table style="width:70%" align="center">    
+        <tr height="35px">
+            <td bgcolor="indianred" style="position: relative;">  
+                <div id="Navigation" align="right" style="position: absolute;right: 80px;top:8px">
+                    <nav>     
+                        <a href="#" style="text-decoration: none; color: white;">Home  |</a>
+                        <a href="#" style="text-decoration: none; color: white;">Coffee Filters |</a>
+                        <a href="#" style="text-decoration: none; color: white;">Gourment Beans |</a> 
+                        <a href="#" style="text-decoration: none; color: white;">Customer Service</a>
+                    </nav>
+                </div>
+            </td>
+        </tr>   
+        <tr>
+            <td bgcolor="#934844" style="color: white;position: relative;">    
+                <img src="assets/img_logo_cup.jpg" alt="coffee logo" style="margin-right: 20px;" align="left" width="450" height="300">
+                <img src="assets/icon.png" alt="icon" style="margin-right:20px; position:absolute; left: 205px;top: 145px;"  width="60" height="40">
+                <br>
+                <image src="assets/logo_transparent.gif" alt="gif" height="80" width="450"> 
+                <h2 style="color:gold;" >Welcome to everything for coffee</h2>
+                <p>Make the perfect cup of coffee with heavenly aroma and exceptional flavor. For all you coffee lovers, we bring your favourite blends to your doorstep from specialty roasters all over the world.</p>
+                <p>The flavor of coffee highly depends on the environmental conditions where it is grown, so we carefully select high-quality beans     from the richest coffee-growing areas of the world.</p>
+            </td>
+        </tr>
+        <tr>  
+            <td bgcolor="#893232" align="center">
+                <div class="float-container" style="margin:15px 50px;color:white;background: rgba(255, 136, 0, 0.726);border: 2px solid white;padding: 20px 30px;">
+                    <div class="float-left" style="width: 880px;margin-left:20px;">
+                        <h2 align="left" style="color:gold;">History of Coffee</h2>   
+                        <p align="left">The origin of coffee date back to 600 A.D. There are several legends about the origin of cofee, one of which states that in Eastern Africa, a shepard called Kaldi obseved that his goats were overactive when they ate cherry-red berries from a shrub. He tried to eat some of the berries, and found himself invigotated too. Soon new spread about the simulating affects of these berries, and monks started singing to the berries to stay awake during their long hours of prayer.</p>  
+                        <p align="left">
+                            From <span style="color: rgb(163, 54, 11)">Eastern Africa</span>, coffee was transported to <span style="color: rgb(163, 54, 11)">Arabia</span> and then to<span style="color: rgb(163, 54, 11)">&nbsp;Turkey</span>, where they roasted the bens and boiled them and gave rise to a crude coffee that we use today. Soon, coffee spread to
+     <span style="color: rgb(163, 54, 11)">Europe</span>,&nbsp;<span style="color: rgb(163, 54, 11)">America</span>&nbsp;and other continents, and now it is one of the most popular beverages enjoyed by multitudes of people all over the world. 
+                        </p>
+                    </div>
+                    <img class="float-left" style="margin-top: 50px;margin-left: 50px;" src="assets/model.jpg" alt="model" height="200" width="200" align="right">    
+                </div>
+            </td>
+        </tr>      
+        <tr height="35px">  
+            <td bgcolor="indianred" style="position: relative;">
+                <div id="Navigation" style="position: absolute;right: 80px;top:50px">    
+                    <nav>      
+                        <a href="#" style="text-decoration: none; color: white;">Terms and Conditions |</a> 
+                        <a href="#" style="text-decoration: none; color: white;">Careers |</a>
+                        <a href="#" style="text-decoration: none; color: white;">Trademark and Copyright |</a>
+                        <a href="#" style="text-decoration: none; color: white;">Provacy Policy<a>
+                    </nav>      
+                </div>  
+                <img src="assets/footer_beans.png" height="80" width="1350">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

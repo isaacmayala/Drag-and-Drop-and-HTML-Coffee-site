@@ -1,0 +1,97 @@
+            <svg xmlns="http://www.w3.org/2000/svg"      
+            width="30cm" height="10cm" style="border:4px solid white; background-color: rgba(255, 153, 0, 0.788);margin: 20px -20px;" >    
+            <foreignObject x="2cm" y="2cm" width="20cm" height="8cm">
+                    <h2 align="left" style="color:gold;">History of Coffee</h2>   
+<img src="assets/model.jpg" alt="model" height="150" width="150" align="right">    
+<p align="left">The origin of coffee date back to 600 A.D. There are several legends about the origin of cofee, one of which states that in Eastern Africa, a shepard called Kaldi obseved that his goats were overactive when they ate cherry-red berries from a shrub. He tried to eat some of the berries, and found himself invigotated too. Soon new spread about the simulating affects of these berries, and monks started singing to the berries to stay awake during their long hours of prayer.</p>  
+ <p align="left">From       
+    <a href="#" style="text-decoration: none; color: white">Eastern Africa</a>, coffee was transported to 
+    <a href="#" style="text-decoration: none; color: white">Arabia</a> and then to <a href="#" style="text-decoration: none; color: white">     
+     Turkey</a>, where they roasted the bens and boiled them and gave rise to a crude coffee that we use today. Soon, coffee spread to
+     <a href="#" style="text-decoration: none; color: white">Europe</a>,<a href="#" style="text-decoration: none; color: white">America</a>      
+     and other continents, and now it is one of the most popular beverages enjoyed by multitudes of people all over the world. 
+    </p>  
+        </p>     
+    </foreignObject>   
+
+    </svg>  
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            /*#navigation {    
+                display: inline-block; 
+            }
+            nav {    
+                width: auto;
+            }
+            nav > a  
+            {
+                border-right: solid white; 
+            }*/
+            .float-container:after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+            .float-container > .float-left {
+                float: left;
+                display: block;
+            }        
+            .float-container > .float-right {
+                float: right;
+                display: block;
+            }
+        </style> 
+    </head>
+    </html> 
+    <body font= "arial" style="color:white; margin: 30px;"  bgcolor= "burlywood"> 
+<table style="width:80%" align="center">    
+    <tr height="35px">
+        <td bgcolor="indianred">  
+            <div id="Navigation" align="right" >
+                <nav>     
+                    <a href="#" style="text-decoration: none; color: white;">Home</a>    
+                    <a href="#" style="text-decoration: none; color: white;">Coffee Filters</a>    
+                    <a href="#" style="text-decoration: none; color: white;">Gourment Beans</a>    
+                    <a href="#" style="text-decoration: none; color: white;">Customer Service</a>
+                </nav>
+            </div>
+        </td>
+    </tr>   
+    <tr>
+        <td bgcolor="#934844">    
+            <img src="assets/img_logo_cup.jpg" alt="coffee logo" style="margin-right: 20px;" align="left" width="450" height="300">
+            <br>
+            <image src="assets/logo_transparent.gif" alt="gif" height="80" width="450"> 
+            <h2 style="color:gold;" >Welcome to everything for coffee</h2>
+            <p>Make the perfect cup of coffee with heavenly aroma and exceptional flavor. For all you coffee lovers, we bring your favourite blends to your doorstep from specialty roasters all over the world.</p>
+            <p>The flavor of coffee highly depends on the environmental conditions where it is grown, so we carefully select high-quality beans     from the richest coffee-growing areas of the world.</p>
+        </td>
+    </tr>
+    <tr>  
+        <td bgcolor="#893232" align="center">
+            <div class="float-container" style="margin:15px 50px;background: rgba(255, 153, 0, 0.788);border: 2px solid white;">
+                <div class="float-left">
+                    <p align="left">The origin of coffee date back to 600 A.D. There are several legends about the origin of cofee, one of which states that in Eastern Africa, a shepard called Kaldi obseved that his goats were overactive when they ate cherry-red berries from a shrub. He tried to eat some of the berries, and found himself invigotated too. Soon new spread about the simulating affects of these berries, and monks started singing to the berries to stay awake during their long hours of prayer.</p>  
+                </div>
+                <img class="float-right" src="assets/model.jpg" alt="model" height="150" width="150" align="right">    
+            </div>
+        </td>
+    </tr>      
+    <tr height="35px">  
+        <td bgcolor="indianred">
+            <div id="Navigation" align="right" >    
+                <nav>      
+                    <a href="#" style="text-decoration: none; color: white;">Terms and Conditions</a> 
+                    <a href="#" style="text-decoration: none; color: white;">Careers</a>     
+                    <a href="#" style="text-decoration: none; color: white;">Trademark and Copyright</a>      
+                    <a href="#" style="text-decoration: none; color: white;">Provacy Policy<a>     
+                </nav>      
+            </div>  
+            <img src="assets/footer_beans.png" height="80" width="1350">
+        </td>
+    </tr>
+</table>
+        </body>
